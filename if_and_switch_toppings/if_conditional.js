@@ -27,7 +27,7 @@ function helado_con_toppings(){
         texto = "Tu helado con lacasitos cuesta " + (helado + lacasitos) + "€";
     }
     else{
-        texto = "Lo siento, la opción indicada no es válida 😡";
+        texto = "no tenemos este topping, lo sentimos.";
     }
     document.getElementById("respuesta").innerHTML = texto;
 }
